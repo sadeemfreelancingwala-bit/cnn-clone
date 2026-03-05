@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CNN Clone - Breaking News</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="nav-header">
+        <h1>CNN</h1>
+        <nav class="nav-links" id="nav-links">
+            <!-- Injected by JS -->
+        </nav>
+    </header>
+
+    <section class="featured-section">
+        <div class="featured-bg"></div>
+        <div class="featured-overlay"></div>
+        <div class="featured-content" id="featured-content">
+            <!-- Injected by JS -->
+        </div>
+    </section>
+
+    <main class="main-grid" id="news-grid">
+        <!-- Injected by JS -->
+    </main>
+
+    <script src="mock_data.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
